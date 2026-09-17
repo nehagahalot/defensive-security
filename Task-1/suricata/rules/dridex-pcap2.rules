@@ -1,0 +1,2 @@
+alert tls any any -> any any (msg:"DRIDEX PCAP2 Suspicious TLS Certificate - Wemadd Hixchac GmBH"; tls.cert_issuer; content:"Wemadd Hixchac GmBH"; sid:1000008; rev:1;)
+alert tls any any -> any any (msg:"DRIDEX PCAP2 Suspicious TLS Certificate - Hedanpr S.p.a."; tls.cert_issuer; content:"Hedanpr S.p.a."; sid:1000009; rev:1;)

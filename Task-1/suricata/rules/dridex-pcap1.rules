@@ -1,0 +1,2 @@
+alert tls any any -> any any (msg:"DRIDEX PCAP1 Suspicious TLS Certificate - Whensean Imegdtc SICAV"; tls.cert_issuer; content:"Whensean Imegdtc SICAV"; sid:1000003; rev:1;)
+alert tls any any -> any any (msg:"DRIDEX PCAP1 Suspicious TLS Certificate - Msorest KGaA"; tls.cert_issuer; content:"Msorest KGaA"; sid:1000007; rev:1;)

@@ -1,0 +1,9 @@
+09/29/2020-20:12:26.251680  [**] [1:1000010:1] DRIDEX PCAP3 Suspicious TLS Certificate - Massol SE [**] [Classification: (null)] [Priority: 3] {TCP} 67.79.105.174:3786 -> 10.9.29.101:49715
+09/29/2020-20:16:36.646777  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49727
+09/29/2020-20:16:39.215590  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49728
+09/29/2020-20:16:49.850859  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49730
+09/29/2020-20:17:02.139013  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49732
+09/29/2020-20:53:06.512562  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49818
+09/29/2020-20:53:04.766680  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49817
+09/29/2020-21:16:20.178249  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49857
+09/29/2020-21:37:03.263553  [**] [1:1000011:1] DRIDEX PCAP3 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 144.202.31.138:8443 -> 10.9.29.101:49865

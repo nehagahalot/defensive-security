@@ -1,0 +1,5 @@
+09/24/2020-17:50:42.102441  [**] [1:1000008:1] DRIDEX PCAP2 Suspicious TLS Certificate - Wemadd Hixchac GmBH [**] [Classification: (null)] [Priority: 3] {TCP} 151.236.219.181:443 -> 10.9.24.101:60513
+09/24/2020-17:56:23.673059  [**] [1:1000009:1] DRIDEX PCAP2 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 62.98.109.30:443 -> 10.9.24.101:60527
+09/24/2020-17:56:20.420774  [**] [1:1000009:1] DRIDEX PCAP2 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 62.98.109.30:443 -> 10.9.24.101:60526
+09/24/2020-17:56:56.953802  [**] [1:1000009:1] DRIDEX PCAP2 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 62.98.109.30:443 -> 10.9.24.101:60529
+09/24/2020-18:19:11.826006  [**] [1:1000009:1] DRIDEX PCAP2 Suspicious TLS Certificate - Hedanpr S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 62.98.109.30:443 -> 10.9.24.101:60542
