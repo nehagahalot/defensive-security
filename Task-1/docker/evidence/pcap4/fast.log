@@ -1,0 +1,8 @@
+10/05/2020-21:20:59.573656  [**] [1:1000005:1] DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL [**] [Classification: (null)] [Priority: 3] {TCP} 85.114.134.25:443 -> 10.10.5.101:49788
+10/05/2020-21:21:01.893318  [**] [1:1000005:1] DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL [**] [Classification: (null)] [Priority: 3] {TCP} 85.114.134.25:443 -> 10.10.5.101:49790
+10/05/2020-21:21:11.568887  [**] [1:1000005:1] DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL [**] [Classification: (null)] [Priority: 3] {TCP} 85.114.134.25:443 -> 10.10.5.101:49792
+10/05/2020-21:21:05.819458  [**] [1:1000005:1] DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL [**] [Classification: (null)] [Priority: 3] {TCP} 85.114.134.25:443 -> 10.10.5.101:49791
+10/05/2020-21:26:09.436106  [**] [1:1000012:1] DRIDEX PCAP4 Suspicious TLS Certificate - Ointavi Tagate Unltd. [**] [Classification: (null)] [Priority: 3] {TCP} 85.211.162.44:8443 -> 10.10.5.101:49814
+10/05/2020-21:26:16.036496  [**] [1:1000012:1] DRIDEX PCAP4 Suspicious TLS Certificate - Ointavi Tagate Unltd. [**] [Classification: (null)] [Priority: 3] {TCP} 85.211.162.44:8443 -> 10.10.5.101:49815
+10/05/2020-21:26:48.561996  [**] [1:1000012:1] DRIDEX PCAP4 Suspicious TLS Certificate - Ointavi Tagate Unltd. [**] [Classification: (null)] [Priority: 3] {TCP} 85.211.162.44:8443 -> 10.10.5.101:49822
+10/05/2020-21:27:22.765275  [**] [1:1000012:1] DRIDEX PCAP4 Suspicious TLS Certificate - Ointavi Tagate Unltd. [**] [Classification: (null)] [Priority: 3] {TCP} 85.211.162.44:8443 -> 10.10.5.101:49833

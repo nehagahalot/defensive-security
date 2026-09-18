@@ -1,0 +1,2 @@
+alert tls any any -> any any (msg:"DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL"; tls.cert_issuer; content:"Lling Lovisq NL"; sid:1000005; rev:1;)
+alert tls any any -> any any (msg:"DRIDEX PCAP4 Suspicious TLS Certificate - Ointavi Tagate Unltd."; tls.cert_issuer; content:"Ointavi Tagate Unltd."; sid:1000012; rev:1;)
