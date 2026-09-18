@@ -1,0 +1,7 @@
+10/07/2020-22:50:46.304885  [**] [1:1000006:1] DRIDEX PCAP5 Suspicious TLS Certificate - Mesureder S.p.a. [**] [Classification: (null)] [Priority: 3] {TCP} 177.87.70.3:443 -> 10.10.7.101:49738
+10/07/2020-22:55:51.019606  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49753
+10/07/2020-22:56:03.694739  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49756
+10/07/2020-22:55:52.588568  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49754
+10/07/2020-22:56:19.188001  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49758
+10/07/2020-23:22:57.561251  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49798
+10/07/2020-23:22:59.587270  [**] [1:1000013:1] DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj [**] [Classification: (null)] [Priority: 3] {TCP} 188.250.8.142:443 -> 10.10.7.101:49799

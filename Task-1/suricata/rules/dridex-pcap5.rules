@@ -1,0 +1,2 @@
+alert tls any any -> any any (msg:"DRIDEX PCAP5 Suspicious TLS Certificate - Mesureder S.p.a."; tls.cert_issuer; content:"Mesureder S.p.a."; sid:1000006; rev:1;)
+alert tls any any -> any any (msg:"DRIDEX PCAP5 Suspicious TLS Certificate - Icccodiso Icloneedb Oyj"; tls.cert_issuer; content:"Icccodiso Icloneedb Oyj"; sid:1000013; rev:1;)
