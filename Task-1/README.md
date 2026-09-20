@@ -17,4 +17,4 @@ using Suricata with Docker and local PCAP replay.
 
 ## Status
 
-In progress.
+Completed.
