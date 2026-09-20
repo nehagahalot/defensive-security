@@ -118,13 +118,12 @@ This means that Suricata checks whether the specified string appears in the TLS 
 
 ### Rule
 
-```text
 alert tls any any -> any any (msg:"DRIDEX PCAP1 Suspicious TLS Certificate - Whensean Imegdtc SICAV"; tls.cert_issuer; content:"Whensean Imegdtc SICAV"; sid:1000003; rev:1;)
 ```
 
 ### SID
 
-`1000003`
+1000003
 
 ### Purpose
 
@@ -136,17 +135,14 @@ This rule detects TLS certificates containing the observed suspicious issuer org
 
 ### Suspicious issuer
 
-`Wemadd Hixchac GmBH`
+Wemadd Hixchac GmBH
 
 ### Rule
-
-```text
 alert tls any any -> any any (msg:"DRIDEX Suspicious TLS Certificate - Wemadd Hixchac GmBH"; tls.cert_issuer; content:"Wemadd Hixchac GmBH"; sid:1000002; rev:1;)
-```
 
 ### SID
 
-`1000002`
+1000002
 
 ### Purpose
 
@@ -158,17 +154,16 @@ This rule detects TLS certificates containing the suspicious issuer organization
 
 ### Suspicious issuer
 
-`Massol SE`
+Massol SE
 
 ### Rule
 
-```text
+text
 alert tls any any -> any any (msg:"DRIDEX PCAP3 Suspicious TLS Certificate - Massol SE"; tls.cert_issuer; content:"Massol SE"; sid:1000004; rev:1;)
-```
 
 ### SID
 
-`1000004`
+1000004
 
 ### Purpose
 
@@ -180,17 +175,14 @@ This rule detects the suspicious certificate issuer observed in PCAP 3.
 
 ### Suspicious issuer
 
-`Lling Lovisq NL`
+Lling Lovisq NL
 
 ### Rule
 
-```text
 alert tls any any -> any any (msg:"DRIDEX PCAP4 Suspicious TLS Certificate - Lling Lovisq NL"; tls.cert_issuer; content:"Lling Lovisq NL"; sid:1000005; rev:1;)
-```
 
 ### SID
-
-`1000005`
+1000005
 
 ### Purpose
 
@@ -206,13 +198,11 @@ This rule detects the suspicious certificate issuer observed in PCAP 4.
 
 ### Rule
 
-```text
 alert tls any any -> any any (msg:"DRIDEX PCAP5 Suspicious TLS Certificate - Mesureder S.p.a."; tls.cert_issuer; content:"Mesureder S.p.a."; sid:1000006; rev:1;)
-```
 
 ### SID
 
-`1000006`
+1000006
 
 ### Purpose
 
@@ -225,10 +215,7 @@ This rule detects the suspicious certificate issuer observed in PCAP 5.
 Before replaying the PCAP files, each custom rule was checked using Suricata's configuration testing mode.
 
 The command used was:
-
-```text
 sudo suricata -T -S <rule-file>
-```
 
 ### Meaning
 
@@ -240,9 +227,9 @@ sudo suricata -T -S <rule-file>
 
 A successful validation produced:
 
-```text
+
 Configuration provided was successfully loaded. Exiting.
-```
+
 
 This confirmed that the custom Suricata rules were syntactically valid.
 
@@ -254,9 +241,9 @@ After validation, the PCAP files were replayed using Suricata's offline PCAP mod
 
 The basic command was:
 
-```text
+
 sudo suricata -r <pcap-file> -S <rule-file> -l <output-directory>
-```
+
 
 ### Meaning
 
@@ -287,15 +274,14 @@ All five custom rules successfully generated alerts when their corresponding PCA
 
 One of the generated alerts was:
 
-```text
 [1:1000002:1] DRIDEX Suspicious TLS Certificate - Wemadd Hixchac GmBH
-```
+
 
 The alert showed communication involving:
 
-```text
+
 151.236.219.181:443 -> 10.9.24.101:60513
-```
+
 
 This demonstrated that the Suricata rule successfully matched the suspicious TLS certificate observed during the Wireshark investigation.
 
@@ -305,9 +291,9 @@ This demonstrated that the Suricata rule successfully matched the suspicious TLS
 
 Before creating the Dridex-specific rules, a broad test rule was created:
 
-```text
+
 alert tls any any -> any any (msg:"TEST TLS certificate issuer"; tls.cert_issuer; content:"Microsoft Corporation"; sid:1000001; rev:1;)
-```
+
 
 This rule was tested against PCAP 2.
 
@@ -315,7 +301,7 @@ It generated multiple alerts, including traffic associated with legitimate Micro
 
 This demonstrated an important detection-engineering concept:
 
-**A rule can technically work but still be too broad and generate false positives.**
+A rule can technically work but still be too broad and generate false positives.
 
 Therefore, the final rules were based on the more specific suspicious certificate issuer strings identified during the Wireshark investigation.
 
